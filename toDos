@@ -1,0 +1,62 @@
+question and answer api
+transferring image
+
+frontend:
+    register
+    login
+    profile
+    crud question
+    crud answer
+    map
+
+Authentication(low priority)
+    check access token
+    
+    single sign on??(maybe not)
+    refresh token(same as single sign on)
+    
+{
+	filter: {
+		location: {
+			centre,
+			range
+		},
+		tags: [],
+		titleText: ''
+	}
+	questions: [],
+	answers: [],
+	account: []
+}
+
+	2009	2010	2011	2012	2013	2014	2015
+省控线	520	518	520	517	538	526	500
+最高分	—	—	—	—	—	—	625
+安全线	—	—	—	—	—	—	609
+门槛线	—	—	—	—	—	—	554
+分差（最高分）	—	—	—	—	—	—	125
+分差（安全线）	—	—	—	—	—	—	109
+分差（门槛线）	—	—	—	—	—	—	54
+最高分位次	—	—	—	—	—	—	2088
+安全线位次	—	—	—	—	—	—	3601
+门槛线位次	—	—	—	—	—	—	13270
+录取人数	—	—	—	—	—	—	53
+
+本校本专业位次	分数	位次	同专业同分录取人数	同省同分录取人数
+1	625	2088	1	4
+2	618	2695	3	5
+5	617	2774	2	4
+7	616	2876	2	4
+9	615	2981	1	3
+10	614	3082	3	9
+13	612	3283	2	4
+15	611	3391	4	7
+19	610	3482	1	1
+20	609	3601	7	9
+27	608	3714	6	6
+33	607	3851	8	9
+41	606	3963	6	8
+47	605	4105	4	11
+51	563	11268	1	1
+52	557	12608	1	1
+53	554	13270	1	2

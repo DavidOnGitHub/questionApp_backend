@@ -1,0 +1,6 @@
+*.js
+!gulpfile.js
+*.js.map
+build/
+node_modules/
+typings/main/ambient/
